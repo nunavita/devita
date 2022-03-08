@@ -1,0 +1,18 @@
+CRITICAL - 2022-02-23 00:34:01 --> Invalid file: layouts/component/sidebar.php
+#0 D:\Xammpp\htdocs\app_resto_devita\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/compone...')
+#1 D:\Xammpp\htdocs\app_resto_devita\system\View\View.php(424): CodeIgniter\View\View->render('layouts/compone...', NULL, true)
+#2 D:\Xammpp\htdocs\app_resto_devita\app\Views\layouts\admin.php(29): CodeIgniter\View\View->include('layouts/compone...')
+#3 D:\Xammpp\htdocs\app_resto_devita\system\View\View.php(210): include('D:\\Xammpp\\htdoc...')
+#4 D:\Xammpp\htdocs\app_resto_devita\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\Xammpp\htdocs\app_resto_devita\system\View\View.php(226): CodeIgniter\View\View->render('layouts/admin', Array, true)
+#6 D:\Xammpp\htdocs\app_resto_devita\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#7 D:\Xammpp\htdocs\app_resto_devita\app\Controllers\Home.php(13): view('dashboard')
+#8 D:\Xammpp\htdocs\app_resto_devita\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#9 D:\Xammpp\htdocs\app_resto_devita\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\Xammpp\htdocs\app_resto_devita\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Xammpp\htdocs\app_resto_devita\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Xammpp\htdocs\app_resto_devita\system\Commands\Server\rewrite.php(43): require_once('D:\\Xammpp\\htdoc...')
+#13 {main}
+CRITICAL - 2022-02-23 00:35:27 --> Cannot declare class App\Controllers\MenuController because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
